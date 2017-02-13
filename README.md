@@ -3,7 +3,7 @@
 <span style="color:red">我自己整理的比較表如下，如果有錯誤，還請各位大大指導，謝謝</span>
     
 MSTest (v1)|NUnit 3|xUnit.net 2.x|Comments
-:-|:-|:-|:-
+---|---|---|---
 [AssemblyCleanup]|n/a|n/a|識別方法，該方法包含組件中的所有測試都執行完畢後，為釋放此組件所佔用資源而要使用的程式碼。
 [AssemblyInitialize]|n/a|n/a|識別方法，該方法所包含的程式碼用於已執行組件中的所有測試之前，以便配置此組件所佔用的資源。
 [ClassCleanup]|[OneTimeTearDown]|IClassFixture<T>|指定測試執行後的結束方法，一個測試 class 只執行一次
@@ -60,7 +60,7 @@ n/a|[ValueSource]|n/a|先定義參數資料，再指定給 method 來進行測�
 <span style="color:red">我自己整理的比較表如下，如果有錯誤，還請各位大大指導，謝謝</span>
 
 MSTest (v1)|NUnit 3|xUnit.net 2.x
-:-|:-|:-
+---|---|---
 AreEqual|AreEqual|Equal
 AreNotEqual|AreNotEqual|NotEqual
 AreNotSame|AreNotSame|NotSame
