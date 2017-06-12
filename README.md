@@ -66,7 +66,7 @@ AreNotEqual|AreNotEqual|NotEqual
 AreNotSame|AreNotSame|NotSame
 AreSame|AreSame|Same
 Equals|n/a|Equals
-Fail|n/a|n/a
+Fail|Fail|n/a
 Inconclusive|Inconclusive|n/a
 IsFalse|False|False
 IsInstanceOfType|IsInstanceOf|IsType
@@ -80,7 +80,6 @@ n/a|CatchAsync|n/a
 n/a|Contains|Contains
 n/a|DoesNotThrow|n/a
 n/a|DoesNotThrowAsync|n/a
-n/a|Fail|n/a
 n/a|Greater|n/a
 n/a|GreaterOrEqual|n/a
 n/a|Ignore|n/a
